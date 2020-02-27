@@ -12,6 +12,8 @@ An item can be added to the cart multiple times - if this happens then it should
 
 2. Please implement the `updateQuantity` and `removeFromCart` methods, considering edge cases for example what happens if an item in the basket is updated with a quantity of 0 or -1?
 
+3. When packing items in an order for shipping, every individual item to be shipped needs it's own box. Please implement the `getCountOfItems` method to return a count of all items
+
 ```
 <?php
 
@@ -61,6 +63,16 @@ class ShoppingCart
     {
         // @todo - implement this
     }
+    
+    /**
+     * Get a count of every individual item in the cart
+     * 
+     * @return int
+     */
+    public function getCountOfItems(): int
+    {
+        // @todo - implement this
+    }
 
     /**
      * Get items
@@ -76,6 +88,30 @@ class ShoppingCart
 ```
 
 ### Question Two
+
+The PHP function `array_map` can apply a custom callback to a given array and return the result.
+
+Complete the code fragment beneath to transform the `$initialValues` array into an array of integer ID's, plucking just the `id` value from each item in the list.
+
+```
+<?php
+
+$initialValues = [
+    ['id' => 38, 'name' => 'John'],
+    ['id' => 39, 'name' => 'Rupert'],
+    ['id' => 40, 'name' => 'Robert'],
+    ['id' => 41, 'name' => 'Simon'],
+    ['id' => 42, 'name' => 'Peter']
+];
+
+$mapped = array_map(
+    function (array $item) {
+    
+    },
+    $initialValues
+);
+
+```
 
 
 
