@@ -165,4 +165,12 @@ Using the table structures, write a simple `SELECT` query that lists the `id` an
 Scenario: The System Dashboard shows an overview of operations including key metrics. It can take a while to load - sometimes an e-mail newsletter will go out with links in it and several thousand system users might sign in at once. This creates a serious CPU spike and the storage layer (database in this case) can't keep up.
 
 How would you solve this problem at the application layer?
+
+### Question Five
+
+Here are some quick fire general PHP and MVC framework type questions (without any particular allegiance to a framework!):
+
+- Scenario - You've just taken over a new system written in a popular PHP MVC framework. You've noticed some of the controllers are over 500 lines long - briefly, how would you approach breaking this down?
+
+- 
   
