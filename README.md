@@ -1,4 +1,4 @@
-# Simple PHP/MySQL Questions
+# Interview Questions - PHP/Database/Architecture
 
 ### Question One
 
@@ -160,4 +160,9 @@ The two table structures defined beneath represent the relationship between `bra
 
 Using the table structures, write a simple `SELECT` query that lists the `id` and `name` fields from the `department` table, and the `name` field from the `brand` table.
 
+### Question Four
+
+Scenario: The System Dashboard shows an overview of operations including key metrics. It can take a while to load - sometimes an e-mail newsletter will go out with links in it and several thousand system users might sign in at once. This creates a serious CPU spike and the storage layer (database in this case) can't keep up.
+
+How would you solve this problem at the application layer?
   
