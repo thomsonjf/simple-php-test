@@ -168,9 +168,5 @@ How would you solve this problem at the application layer?
 
 ### Question Five
 
-Here are some quick fire general PHP and MVC framework type questions (without any particular allegiance to a framework!):
-
-- Scenario - You've just taken over a new system written in a popular PHP MVC framework. You've noticed some of the controllers are over 500 lines long - briefly, how would you approach breaking this down?
-
-- 
+Scenario: You've just taken over a new system written in a popular PHP MVC framework. You've noticed some of the controllers are over 500 lines long - briefly, how would you approach breaking this down?
   
